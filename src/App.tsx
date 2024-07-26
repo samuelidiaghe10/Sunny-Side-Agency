@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [ourText, setOurText] = useState("");
-  const [paused, setPaused] = useState(false);
+  const [paused, setPaused] = useState(true);
 
   const msg = new SpeechSynthesisUtterance();
 
@@ -27,7 +27,7 @@ function App() {
   const handlePause = () => {
     const synth = window.speechSynthesis;
     synth.pause();
-    setPaused(true);
+    setPaused(false);
   };
 
   return (
