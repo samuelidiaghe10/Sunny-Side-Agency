@@ -18,9 +18,9 @@ export default {
 
       backgroundImage: {
         headerDesktop:
-          'url("./src/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg")',
+          'url("/src/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg")',
         headerMobile:
-          'url("./src/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg")',
+          'url("/src/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg")',
       },
     },
   },
